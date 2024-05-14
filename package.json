@@ -1,0 +1,23 @@
+{
+  "name": "movies_db",
+  "version": "0.1.0",
+  "homepage": "https://yash-sahita2103.github.io/movie-db-react",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "next": "14.1.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
